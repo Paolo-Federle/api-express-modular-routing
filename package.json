@@ -1,7 +1,7 @@
 {
   "name": "express-router-with-dummy-data",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this exercise, you are going to extend the REST APIs you have been building to handle DELETE and PUT requests. You will also learn how to make your route handling more modular in express using express.Router.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -12,7 +12,20 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   },
-  "keywords": []
+  "keywords": [],
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paolo-Federle/api-express-modular-routing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paolo-Federle/api-express-modular-routing/issues"
+  },
+  "homepage": "https://github.com/Paolo-Federle/api-express-modular-routing#readme"
 }
